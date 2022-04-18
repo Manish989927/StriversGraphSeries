@@ -4,7 +4,7 @@
 
 class Solution {
 public:
-	vector<int>bfsOfGraph(int V, vector<int> adj[]){
+	vector<int> bfsOfGraph(int V, vector<int> adj[]){
 	    vector<int> bfs; 
 	    vector<int> vis(V, 0); 
 	    queue<int> q; 
@@ -29,10 +29,10 @@ public:
 
 // { Driver Code Starts.
 int main(){
-	int tc;
-	cin >> tc;
+	int t;
+	cin >> t;
 	// for multiple graphs
-	while(tc--){
+	while(t--){
 		int V, E;
     	cin >> V >> E;
 
